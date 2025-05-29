@@ -12,8 +12,8 @@ const faqs = [
     answer: "O VEO 3 é a mais recente e avançada tecnologia de inteligência artificial do Google para geração de vídeos. Ele permite criar vídeos realistas a partir de simples descrições de texto, com qualidade profissional e detalhes impressionantes."
   },
   {
-    question: "É seguro usar essa IA?",
-    answer: "Sim, completamente seguro. O VEO 3 é desenvolvido pelo Google seguindo os mais altos padrões de segurança e privacidade. Nosso acesso é oficial e todos os dados são protegidos por criptografia de ponta."
+    question: "Como vocês conseguem vender tão barato?",
+    answer: "Iremos ensinar alguns dos métodos que usamos e que permitem gerar cadastros com assinatura ativa de forma vitalícia; você pode criar novos cadastros sempre que precisar. O valor cobrado serve para fornecer esse método e oferecer nosso suporte."
   },
   {
     question: "Como recebo o acesso?",
@@ -21,17 +21,18 @@ const faqs = [
   },
   {
     question: "Posso gerar quantos vídeos quiser?",
-    answer: "Depende do seu plano. No plano mensal você tem 50 vídeos/mês. No plano vitalício, você tem acesso totalmente ilimitado - pode gerar quantos vídeos precisar, sem restrições."
+    answer: "Sim, você poderá gerar vídeos ilimitados. A cada 10 vídeos gerados no mesmo mês, será necessário criar um novo cadastro — sem custo adicional. Nós ensinaremos exatamente como fazer isso."
   },
   {
     question: "O suporte está incluso?",
-    answer: "Sim! Todos os membros têm acesso ao nosso suporte especializado. O plano mensal inclui suporte por email, enquanto o plano vitalício tem suporte prioritário com resposta em até 2 horas."
+    answer: "Sim! Todos os membros têm acesso ao nosso suporte especializado. O plano mensal inclui suporte por email, enquanto o plano vitalício oferece suporte prioritário com resposta em até 2 horas."
   },
   {
     question: "O acesso é imediato?",
     answer: "Sim, assim que seu pagamento for confirmado, você recebe acesso instantâneo à plataforma. Nosso sistema é automatizado e funciona 24/7, incluindo finais de semana e feriados."
   }
 ];
+
 
 export const FAQSection = () => {
   return (

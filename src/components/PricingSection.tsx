@@ -4,34 +4,33 @@ import { Check } from 'lucide-react';
 
 const plans = [
   {
-    name: "Mensal",
+    name: "Básico",
     price: "R$ 19",
-    period: "/mês",
-    description: "Para quem quer testar primeiro",
+    period: "/pagamento único",
+    description: "Acesso Vitalício ao VEO3",
     features: [
-      "Acesso ao Google VEO 3",
-      "50 vídeos por mês",
+      "Acesso vitalício ao Google VEO 3",
+      "Gere vídeos ilimitados",
       "Suporte por email",
       "Tutoriais básicos",
-      "Resolução HD"
     ],
-    cta: "Começar agora",
+    cta: "Quero comprar",
     popular: false
   },
   {
-    name: "Vitalício",
+    name: "Pacote VIP",
     price: "R$ 47",
-    period: "pagamento único",
-    description: "Melhor custo-benefício",
+    period: "/pagamento único",
+    description: "Acesso ao nosso super combos de IA",
     features: [
-      "Acesso vitalício ao VEO 3",
-      "Vídeos ilimitados",
-      "Suporte prioritário",
-      "Todos os tutoriais",
-      "Resolução 4K",
-      "Acesso antecipado a novidades",
-      "Comunidade VIP",
-      "Garantia de 30 dias"
+      "Acesso vitalício ao Google VEO 3",
+      "Gere vídeos ilimitados",
+      "Suporte prioritário via WhatsApp",
+      "Tutoriais avançados",
+      "Brinde: Aprenda os melhores prompts para a IA",
+      "Brinde: Gamma APP Pro 1 Ano (Gere PDF's com IA)",
+      "Brinde: Canva PRO 1 Ano",
+      "Brinde: ChatGPT Plus 1 Ano"
     ],
     cta: "Quero esse plano",
     popular: true
@@ -40,8 +39,11 @@ const plans = [
 
 export const PricingSection = () => {
   const handlePlanClick = (planName: string) => {
-    console.log(`Plano selecionado: ${planName}`);
-    // Aqui você pode implementar a lógica de redirecionamento
+    if (planName === "Básico") {
+      window.location.href = "https://checkout.viperpay.com.br/IFJKATLF";
+    } else if (planName === "Pacote VIP") {
+      window.location.href = "https://checkout.viperpay.com.br/bPrAvbvl";
+    }
   };
 
   return (
