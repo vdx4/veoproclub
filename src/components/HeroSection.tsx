@@ -8,11 +8,17 @@ export const HeroSection = () => {
   };
 
   return (
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-primary mb-6 leading-tight tracking-tight">
+            Nunca mais fique 
+            <span className="block text-accent">limitado para criar vídeos</span>
+          </h1>
     <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-apple-gray to-white overflow-hidden">
       {/* Background Video Placeholder */}
       <div className="absolute inset-0 bg-gradient-to-br from-black/5 to-transparent z-0">
         <div className="w-full h-full bg-gradient-to-br from-apple-gray via-white to-apple-gray opacity-90" />
       </div>
+
+      
       
       {/* Content */}
       <div className="relative z-10 max-w-4xl mx-auto px-6 text-center">
@@ -29,12 +35,6 @@ export const HeroSection = () => {
               </div>
             </div>
           </div>
-
-          {/* Headline */}
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-primary mb-6 leading-tight tracking-tight">
-            Nunca mais fique 
-            <span className="block text-accent">limitado para criar vídeos</span>
-          </h1>
 
           {/* Subtitle */}
           <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed">
