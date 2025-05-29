@@ -8,12 +8,13 @@ export const HeroSection = () => {
   };
 
   return (
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-primary mb-6 leading-tight tracking-tight">
+              <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-apple-gray to-white overflow-hidden">
+
+<h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-primary mb-6 leading-tight tracking-tight">
             Nunca mais fique 
             <span className="block text-accent">limitado para criar vídeos</span>
           </h1>
-    <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-apple-gray to-white overflow-hidden">
-      {/* Background Video Placeholder */}
+
       <div className="absolute inset-0 bg-gradient-to-br from-black/5 to-transparent z-0">
         <div className="w-full h-full bg-gradient-to-br from-apple-gray via-white to-apple-gray opacity-90" />
       </div>
