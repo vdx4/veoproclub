@@ -50,12 +50,6 @@ return (
           >
             Quero acesso ao VEO 3
             </Button>
-            <Button 
-              variant="outline" 
-              className="border-2 border-primary text-primary hover:bg-primary hover:text-white px-8 py-4 text-lg font-semibold rounded-xl transition-all duration-300"
-            >
-              Ver demonstração
-            </Button>
           </div>
 
           {/* Trust Indicators */}
