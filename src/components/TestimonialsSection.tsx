@@ -4,42 +4,42 @@ const testimonials = [
     name: "Carla Silva",
     role: "Editora de Vídeos",
     company: "CreativeStudio",
-    avatar: "https://images.unsplash.com/photo-1494790108755-2616b612b647?w=64&h=64&fit=crop&crop=face",
+    avatar: "/images/1.jpg",
     content: "O VEO 3 revolucionou meu workflow. Consigo criar vídeos que antes levariam horas em poucos minutos. A qualidade é impressionante!"
   },
   {
     name: "Lucas Mendes", 
     role: "Gestor de Tráfego",
     company: "Digital Growth",
-    avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=64&h=64&fit=crop&crop=face",
+    avatar: "/images/4.jpg",
     content: "Meus anúncios nunca tiveram uma performance tão boa. O VEO 3 me permite testar centenas de variações criativas rapidamente."
   },
   {
     name: "Ana Costa",
     role: "YouTuber",
     company: "Canal TechReview",
-    avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=64&h=64&fit=crop&crop=face", 
+    avatar: "/images/2.jpg", 
     content: "Criei mais de 100 vídeos no primeiro mês. O acesso antecipado me deu uma vantagem competitiva enorme no YouTube."
   },
   {
     name: "Pedro Santos",
     role: "Diretor Criativo", 
     company: "Agência Pixel",
-    avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=64&h=64&fit=crop&crop=face",
+    avatar: "/images/5.jpg",
     content: "Nossos clientes ficaram impressionados com a velocidade de entrega. Conseguimos quadruplicar nossa capacidade produtiva."
   },
   {
     name: "Marina Oliveira",
     role: "Social Media Manager",
     company: "Brand Connect",
-    avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=64&h=64&fit=crop&crop=face",
+    avatar: "/images/3.jpg",
     content: "Nunca vi uma ferramenta tão intuitiva. Em 5 minutos já estava criando conteúdo profissional para todas as redes sociais."
   },
   {
     name: "Rafael Lima",
     role: "Empreendedor Digital",
     company: "EcoCommerce",
-    avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=64&h=64&fit=crop&crop=face",
+    avatar: "/images/6.jpg",
     content: "ROI incrível! Economizei mais de R$ 20.000 em produção de vídeos no primeiro trimestre. O VEO Pro Club se pagou sozinho."
   }
 ];
