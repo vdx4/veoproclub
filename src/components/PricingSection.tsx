@@ -68,11 +68,18 @@ export const PricingSection = () => {
               }`}
             >
               {plan.popular && (
-                <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
-                  <span className="bg-accent text-white px-6 py-2 rounded-full text-sm font-semibold">
-                    Mais popular
-                  </span>
-                </div>
+<div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
+  <span className="relative inline-flex items-center justify-center">
+    {/* Efeito de pulsar */}
+    <span className="absolute inline-flex h-full w-full rounded-full bg-accent opacity-75 animate-ping"></span>
+    
+    {/* Texto */}
+    <span className="relative bg-accent text-white px-6 py-2 rounded-full text-sm font-semibold">
+      Mais popular
+    </span>
+  </span>
+</div>
+
               )}
 
               <div className="text-center mb-8">
