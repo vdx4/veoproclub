@@ -64,14 +64,18 @@ export const FAQSection = () => {
           ))}
         </Accordion>
 
-        <div className="text-center mt-12">
-          <p className="text-gray-600">
-            Ainda tem dúvidas? 
-            <span className="text-accent font-medium ml-1 cursor-pointer hover:underline">
-              Entre em contato conosco
-            </span>
-          </p>
-        </div>
+      <div className="text-center mt-12">
+  <p className="text-gray-600">
+    Ainda tem dúvidas? 
+    <a
+      href="https://www.instagram.com/veo3pro/"
+      rel="noopener noreferrer"
+      className="text-accent font-medium ml-1 cursor-pointer hover:underline"
+    >
+      Entre em contato conosco
+    </a>
+  </p>
+</div>
       </div>
     </section>
   );

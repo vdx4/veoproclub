@@ -27,10 +27,10 @@ const plans = [
       "Gere vídeos ilimitados",
       "Suporte prioritário via WhatsApp",
       "Tutoriais avançados",
-      "Brinde: Aprenda os melhores prompts para a IA",
-      "Brinde: Gamma APP Pro 1 Ano (Gere PDF's com IA)",
-      "Brinde: Canva PRO 1 Ano",
-      "Brinde: ChatGPT Plus 1 Ano"
+      "🎁: Aprenda os melhores prompts para a IA",
+      "🎁: Gamma APP Pro 1 Ano (Gere PDF's com IA)",
+      "🎁: Canva PRO 1 Ano",
+      "🎁: ChatGPT Plus 1 Ano"
     ],
     cta: "Quero comprar o VIP",
     popular: true
