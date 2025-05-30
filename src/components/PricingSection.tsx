@@ -61,23 +61,25 @@ export const PricingSection = () => {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-4xl mx-auto">
           {plans.map((plan, index) => (
-            <div 
-              key={index}
-              className={`relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 ${
-                plan.popular ? 'ring-2 ring-accent scale-105' : ''
-              }`}
-            >
-              {plan.popular && (
-<div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
-  <span className="relative inline-flex items-center justify-center">
-    <span className="absolute h-10 w-28 rounded-full bg-accent opacity-50 animate-ping"></span>
-    <span className="relative bg-accent text-white px-6 py-2 rounded-full text-sm font-semibold">
-      Mais popular
-    </span>
-  </span>
-</div>
-              )}
+<div 
+  key={index}
+  className={`relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 ${
+    plan.popular ? 'ring-2 ring-accent scale-105 animate-border-run' : ''
+  }`}
+>
 
+              {plan.popular && (
+  <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
+    <span className="relative inline-flex items-center justify-center">
+      <span className="absolute h-10 w-28 rounded-full bg-accent animate-soft-ping"></span>
+      <span className="relative bg-accent text-white px-6 py-2 rounded-full text-sm font-semibold">
+        Mais popular
+      </span>
+    </span>
+  </div>
+)}
+
+              
               <div className="text-center mb-8">
                 <h3 className="text-2xl font-bold text-primary mb-2">{plan.name}</h3>
                 <div className="flex items-end justify-center mb-2">
@@ -96,16 +98,17 @@ export const PricingSection = () => {
                 ))}
               </ul>
 
-              <Button 
-                onClick={() => handlePlanClick(plan.name)}
-                className={`w-full py-4 text-lg font-semibold rounded-xl transition-all duration-300 ${
-                  plan.popular 
-                    ? 'bg-accent hover:bg-accent/90 text-white' 
-                    : 'bg-primary hover:bg-primary/90 text-white'
-                }`}
-              >
-                {plan.cta}
-              </Button>
+<Button 
+  onClick={() => handlePlanClick(plan.name)}
+  className={`w-full py-4 text-lg font-semibold rounded-xl transition-all duration-300 ${
+    plan.popular 
+      ? 'bg-accent hover:bg-accent/90 text-white animate-subtle-bounce' 
+      : 'bg-primary hover:bg-primary/90 text-white'
+  }`}
+>
+  {plan.cta}
+</Button>
+
 
               {plan.popular && (
                 <p className="text-center text-sm text-gray-500 mt-4">

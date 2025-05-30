@@ -27,6 +27,39 @@
   }
 }
 
+@keyframes soft-ping {
+  0%, 100% { transform: scale(1); opacity: 0.3; }
+  50% { transform: scale(1.3); opacity: 0.15; }
+}
+
+@keyframes gradient-border {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
+}
+
+@keyframes subtle-bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-4px); }
+}
+
+/* Utilitários customizados */
+.animate-soft-ping {
+  animation: soft-ping 2.5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.animate-border-run {
+  background: linear-gradient(270deg, #ff7e5f, #feb47b, #ff7e5f);
+  background-size: 600% 600%;
+  animation: gradient-border 4s linear infinite;
+  border-radius: 1rem;
+  padding: 2px; /* para o efeito de borda */
+}
+
+.animate-subtle-bounce {
+  animation: subtle-bounce 2s ease-in-out infinite;
+}
+
+
 @media (prefers-reduced-motion: no-preference) {
   a:nth-of-type(2) .logo {
     animation: logo-spin infinite 20s linear;
