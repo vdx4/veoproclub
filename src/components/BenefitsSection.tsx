@@ -9,8 +9,8 @@ const benefits = [
   },
   {
     icon: Zap,
-    title: "Acesso antecipado ao Google VEO 3", 
-    description: "Seja um dos primeiros a usar a tecnologia mais avançada de IA para vídeos."
+    title: "Acesso vitalício", 
+    description: "Nunca mais dependa de mensalidades absurdas, tenha acesso vitalício com apenas um pagamento."
   },
   {
     icon: Shield,
@@ -24,8 +24,8 @@ const benefits = [
   },
   {
     icon: Check,
-    title: "Alta resolução e realismo impressionante",
-    description: "Vídeos com qualidade profissional indistinguível da realidade."
+    title: "Acesso oficial",
+    description: "Nós trabalhamos unicamente com o site original do VEO 3, seu acesso será no site original."
   },
   {
     icon: Smartphone,
@@ -40,7 +40,7 @@ export const BenefitsSection = () => {
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-primary mb-6">
-            Por que escolher o VEO Pro Club?
+            Por que escolher o VEO Pro?
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Tenha acesso às funcionalidades mais avançadas do Google VEO 3 

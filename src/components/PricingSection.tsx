@@ -7,7 +7,7 @@ const plans = [
     name: "Básico",
     price: "R$ 19",
     period: "/pagamento único",
-    description: "Acesso Vitalício ao VEO3",
+    description: "Para quem deseja testar",
     features: [
       "Acesso vitalício ao Google VEO 3",
       "Gere vídeos ilimitados",
@@ -32,7 +32,7 @@ const plans = [
       "Brinde: Canva PRO 1 Ano",
       "Brinde: ChatGPT Plus 1 Ano"
     ],
-    cta: "Quero esse plano",
+    cta: "Quero comprar o VIP",
     popular: true
   }
 ];
@@ -51,7 +51,7 @@ export const PricingSection = () => {
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-primary mb-6">
-            Escolha seu plano
+            Escolha seu pacote
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Acesso exclusivo ao Google VEO 3 com condições especiais 

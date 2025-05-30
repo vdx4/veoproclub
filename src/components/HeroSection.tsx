@@ -54,11 +54,9 @@ return (
 
           {/* Trust Indicators */}
           <div className="mt-12 flex flex-col items-center">
-            <p className="text-sm text-gray-500 mb-4">Mais de 10.000 criadores já têm acesso</p>
+            <p className="text-sm text-gray-500 mb-4">Mais de 10.000 usuários</p>
             <div className="flex items-center space-x-8 opacity-60">
               <div className="text-xs text-gray-400">⭐⭐⭐⭐⭐ 4.9/5</div>
-              <div className="text-xs text-gray-400">🔒 Acesso Seguro</div>
-              <div className="text-xs text-gray-400">⚡ Resultados Imediatos</div>
             </div>
           </div>
         </div>
