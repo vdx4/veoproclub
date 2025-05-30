@@ -2,7 +2,6 @@
 import { useState } from 'react';
 import { HeroSection } from '@/components/HeroSection';
 import { BenefitsSection } from '@/components/BenefitsSection';
-import { TargetAudienceSection } from '@/components/TargetAudienceSection';
 import { TestimonialsSection } from '@/components/TestimonialsSection';
 import { PricingSection } from '@/components/PricingSection';
 import { FAQSection } from '@/components/FAQSection';
