@@ -42,7 +42,7 @@ export const PricingSection = () => {
     if (planName === "Básico") {
       window.location.href = "https://checkout.viperpay.com.br/IFJKATLF";
     } else if (planName === "Pacote VIP") {
-      window.location.href = "https://checkout.viperpay.com.br/bPrAvbvl";
+      window.location.href = "https://checkout.viperpay.com.br/rMvnCFoW";
     }
   };
 
